@@ -13,9 +13,9 @@ Building MapD from source in a cuda docker image.
 4. Replace llvm patch file under script directory with above patch file.  
 
 # Build
-```mkdir build  
+```
+mkdir build  
 cd build  
 cmake -DCMAKE_BUILD_TYPE=debug ..  
-make -j 4  ```
-
- 
+make -j 4  
+```
