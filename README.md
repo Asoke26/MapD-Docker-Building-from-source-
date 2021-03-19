@@ -2,7 +2,7 @@
 Building MapD from source in a cuda docker image.
 
 1. Install docker  
-   https://docs.docker.com/engine/install/ubuntu/
+   ```https://docs.docker.com/engine/install/ubuntu/```
 
 2. Pull cuda runtime docker from docker hub  
    docker pull nvidia/cuda:11.2.2-cudnn8-devel-ubuntu18.04
