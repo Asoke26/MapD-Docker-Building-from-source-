@@ -1,4 +1,4 @@
-# MapD Docker GPU cuda
+# OmniSciDB (formerly MapD Core) | Building from source 
 Building MapD from source in a cuda docker image.
 
 Assuming nvidia related drivers are installed in host machine. Verify by running ```nvidia-smi```
