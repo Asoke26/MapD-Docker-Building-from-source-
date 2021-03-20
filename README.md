@@ -1,6 +1,8 @@
 # MapD Docker GPU cuda
 Building MapD from source in a cuda docker image.
 
+Assuming nvidia related drivers are installed in host machine. Verify by running ```nvidia-smi```
+
 1. Install docker and nvidia docker toolkit from below link  
    ```https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker```
 
@@ -27,7 +29,7 @@ Building MapD from source in a cuda docker image.
     sed -i 's/sudo//g' omniscidb/scripts/mapd-deps-ubuntu.sh  
     source omniscidb/scripts/mapd-deps-ubuntu.sh
     ```
-6. Once all dependencies are finished installing (It may take a while). Run below script to set all the environment variable( everytime you restart the docker you need to run this script.
+6. Once all the dependencies are installed (It may take a while) run below script to set all the environment variable( everytime you restart the docker you need to run this script.
    ```
    source /usr/local/mapd-deps/mapd-deps.sh  ```
 
@@ -43,3 +45,10 @@ Issues :
 ``` c++: fatal error: Killed signal terminated program cc1plus ```  
 Solution : Increased swap size in host machine by 64 GB. Please find details below.  
 ```https://askubuntu.com/questions/1264568/increase-swap-in-20-04```
+
+Reference :  
+1) Omniscidb (https://github.com/omnisci/omniscidb)
+
+Contact :  
+https://www.linkedin.com/in/ad26/
+https://asoke26.github.io/adatta2/
