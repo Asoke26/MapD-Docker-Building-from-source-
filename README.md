@@ -18,7 +18,16 @@ Building MapD from source in a cuda docker image.
 5. Clone latest omnisci(Previously known as MapD) repository from github.  
    ```git clone https://github.com/omnisci/omniscidb.git```
 
-4. Replace llvm patch file under script directory with above patch file.  
+4. Replace omniscidb/scripts/llvm-9-glibc-2.31-708430.patch file content with below file content.
+   ```
+   https://github.com/Asoke26/mapdcudadocker/blob/main/llvm-9-glibc-2.31-708430.patch
+   ```
+5. Replace 'sudo' keyword from script and Install all MapD dependencies.
+    ```
+    sed -i 's/sudo//g' omniscidb/scripts/mapd-deps-ubuntu.sh  
+    source omniscidb/scripts/mapd-deps-ubuntu.sh
+    ```
+
 
 # Build
 ```
