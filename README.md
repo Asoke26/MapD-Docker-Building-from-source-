@@ -13,7 +13,7 @@ Building MapD from source in a cuda docker image.
    ```
    apt-get update
    aet-get upgrade
-   apt install git build-essential vim
+   apt install git build-essential vim doxygen
    ```
 5. Clone latest omnisci(Previously known as MapD) repository from github.  
    ```git clone https://github.com/omnisci/omniscidb.git```
