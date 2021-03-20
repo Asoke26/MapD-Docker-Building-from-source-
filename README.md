@@ -22,12 +22,15 @@ Building MapD from source in a cuda docker image.
    ```
    https://github.com/Asoke26/mapdcudadocker/blob/main/llvm-9-glibc-2.31-708430.patch
    ```
+<<<<<<< HEAD
 5. Replace 'sudo' keyword from script and Install all MapD dependencies.
     ```
     sed -i 's/sudo//g' omniscidb/scripts/mapd-deps-ubuntu.sh  
     source omniscidb/scripts/mapd-deps-ubuntu.sh
     ```
 
+=======
+>>>>>>> main
 
 # Build
 ```
