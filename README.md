@@ -50,5 +50,5 @@ Reference :
 1) Omniscidb (https://github.com/omnisci/omniscidb)
 
 Contact :  
-https://www.linkedin.com/in/ad26/
+https://www.linkedin.com/in/ad26/  
 https://asoke26.github.io/adatta2/
