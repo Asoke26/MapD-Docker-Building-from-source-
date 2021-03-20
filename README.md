@@ -38,7 +38,8 @@ Building MapD from source in a cuda docker image.
    make -j $(nproc)  
    ```
 
-Note : During build phase I faced below error  
+Issues : 
+1) During build phase I faced below error  
 ``` c++: fatal error: Killed signal terminated program cc1plus ```  
-Issue solved by increasing swap size in host machine by 64 GB. Please find details below.  
+Solution : Increased swap size in host machine by 64 GB. Please find details below.  
 ```https://askubuntu.com/questions/1264568/increase-swap-in-20-04```
