@@ -31,7 +31,8 @@ Assuming nvidia related drivers are installed in host machine. Verify by running
     ```
 6. Once all the dependencies are installed (It may take a while) run below script to set all the environment variable( everytime you restart the docker you need to run this script.
    ```
-   source /usr/local/mapd-deps/mapd-deps.sh  ```
+   source /usr/local/mapd-deps/mapd-deps.sh  
+   ```
 
 7. Build
    ```
