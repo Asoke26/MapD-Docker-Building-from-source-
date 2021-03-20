@@ -29,12 +29,12 @@ Building MapD from source in a cuda docker image.
     ```
 6. Once all dependencies are finished installing (It may take a while). Run below script to set all the environment variable( everytime you restart the docker you need to run this script.
    ```
-   source /usr/local/mapd-deps/mapd-deps.sh
-  ```
-# Build
+   source /usr/local/mapd-deps/mapd-deps.sh  ```
+
+7. Build
 ```
-mkdir build  
-cd build  
+mkdir build && cd build  
 cmake -DCMAKE_BUILD_TYPE=debug ..  
-make -j 4  
+make -j $(nproc)  
 ```
+
