@@ -32,9 +32,9 @@ Building MapD from source in a cuda docker image.
    source /usr/local/mapd-deps/mapd-deps.sh  ```
 
 7. Build
-```
-mkdir build && cd build  
-cmake -DCMAKE_BUILD_TYPE=debug ..  
-make -j $(nproc)  
-```
+   ```
+   mkdir build && cd build  
+   cmake -DCMAKE_BUILD_TYPE=debug ..  
+   make -j $(nproc)  
+   ```
 
