@@ -7,8 +7,8 @@ Building MapD from source in a cuda docker image.
 2. Pull cuda runtime docker image from docker hub and run  
    ```
    docker pull nvidia/cuda:11.2.2-cudnn8-devel-ubuntu20.04  
-   docker run -it --name container_name --gpus device=0 docker-image-id bash
-```
+   docker run -it --name container_name --gpus device=0 docker-image-id bash ```
+   
 3. Install necessary packages.
    ```
    apt-get update
