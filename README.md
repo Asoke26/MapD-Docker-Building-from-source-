@@ -27,6 +27,10 @@ Building MapD from source in a cuda docker image.
     sed -i 's/sudo//g' omniscidb/scripts/mapd-deps-ubuntu.sh  
     source omniscidb/scripts/mapd-deps-ubuntu.sh
     ```
+6. Once all dependencies are finished installing (It may take a while). Run below script to set all the environment variable( everytime you restart the docker you need to run this script.
+   ```
+   source /usr/local/mapd-deps/mapd-deps.sh
+  ```
 # Build
 ```
 mkdir build  
