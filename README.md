@@ -41,6 +41,19 @@ Assuming nvidia related drivers are installed in host machine. Verify by running
    cmake -DCMAKE_BUILD_TYPE=debug ..  
    make -j $(nproc)  
    ```
+8. Start Server
+   a)Create data directory and initialize
+      ```
+      mkdir /home/data && ./bin/initdb /home/data
+      ```
+   b) Start server. From omnisci/build/ 
+      ```
+      ./bin/omnisci_server --data /home/data
+      ```
+   c) Start client.
+      ```
+      ./bin/omnisql -p HyperInteractive
+      ```
 
 Issues : 
 1) During build phase I faced below error  
