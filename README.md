@@ -41,7 +41,7 @@ Assuming nvidia related drivers are installed in host machine. Verify by running
    cmake -DCMAKE_BUILD_TYPE=debug ..  
    make -j $(nproc)  
    ```
-8. Start Server
+8. Start Server  
    a)Create data directory and initialize
       ```
       mkdir /home/data && ./bin/initdb /home/data
