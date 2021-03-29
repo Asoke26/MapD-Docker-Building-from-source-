@@ -60,9 +60,9 @@ Issues :
 ``` c++: fatal error: Killed signal terminated program cc1plus ```  
 Solution : Increased swap size in host machine by 64 GB. Please find details below.  
 ```https://askubuntu.com/questions/1264568/increase-swap-in-20-04```
-2) Loading CSV file data using ```COPY table FROM /home/table.csv```
-   a) Create a folder named ```mapd_import``` inside ```/home/data/```
-   b) Move all ```.csv``` file inside ```mapd_import```.
+2) Loading CSV file data using ```COPY table FROM /home/table.csv```  
+   a) Create a folder named ```mapd_import``` inside ```/home/data/```  
+   b) Move all ```.csv``` file inside ```mapd_import```.  
  
 Reference :  
 1) Omniscidb (https://github.com/omnisci/omniscidb)
