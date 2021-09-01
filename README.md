@@ -15,7 +15,7 @@ Assuming nvidia related drivers are installed in host machine. Verify by running
 3. Install necessary packages.
    ```
    apt-get update
-   aet-get upgrade
+   apt-get upgrade
    apt install git build-essential vim doxygen
    ```
 5. Clone latest omnisci(Previously known as MapD) repository from github.  
